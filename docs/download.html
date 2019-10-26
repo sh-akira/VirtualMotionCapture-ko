@@ -5,14 +5,26 @@ description: 버츄얼모션캡쳐의 다운로드 페이지 입니다.
 pricing_table:
   - name: BOOTH에서
     color: "#4a4a4a"
+    bgcolor: "#5555f0"
     features:
-      - text: 무료로 다운로드 가능합니다.
+      - text: 무료로 다운로드 가능합니다
         highlight: true
-      - text: 마음에 드셨다면 Boost도 부탁드립니다.
+      - text: 마음에 드셨다면 Boost도 부탁드립니다
         highlight: false
     call_to_action:
       link: https://sh-akira.booth.pm/items/999760
-      text: 다운로드 페이지로
+      text: 다운로드페이지로
+  - name: pixivFANBOX에서
+    color: "#4a4a4a"
+    bgcolor: "#f05555"
+    features:
+      - text: 선행릴리스판(유료)
+        highlight: true
+      - text: 지원자만을 위한 새로운 기능을 선행전달하기도 합니다
+        highlight: false
+    call_to_action:
+      link: https://www.pixiv.net/fanbox/creator/10267568
+      text: 지원페이지로
 faq:
   - question: 사용할 때 돈이 드나요?
     answer: 무료로 사용하실 수 있습니다. 마음에 드셨다면 후원도 부탁드립니다.
@@ -34,7 +46,7 @@ faq:
 			{% endfor %}
 
 			{% if plan.call_to_action %}
-				<li class="pricing-cta"><div class="button"><a target="_blank" style="background: #5555f0" href="{{ plan.call_to_action.link }}">{{ plan.call_to_action.text }} &rarr;</a></div></li>
+				<li class="pricing-cta"><div class="button"><a target="_blank" style="background: {{ plan.bgcolor }}" href="{{ plan.call_to_action.link }}">{{ plan.call_to_action.text }} &rarr;</a></div></li>
 			{% endif %}
 		</ul>
 	{% endfor %}
