@@ -7,16 +7,10 @@ html, body {
 	padding: 0;
 }
 
-@font-face {
-	font-family: 'GenJyuuGothic-P-Bold';
-    src: url('https://cdn.rawgit.com/sh-akira/VirtualMotionCapture/d377d38d/docs/font/GenJyuuGothic-P-Bold-subset.eot');
-    src: url('https://cdn.rawgit.com/sh-akira/VirtualMotionCapture/d377d38d/docs/font/GenJyuuGothic-P-Bold-subset.eot?#iefix') format('embedded-opentype'),
-    url('https://cdn.rawgit.com/sh-akira/VirtualMotionCapture/d377d38d/docs/font/GenJyuuGothic-P-Bold-subset.woff') format('woff'),
-    url('https://cdn.rawgit.com/sh-akira/VirtualMotionCapture/d377d38d/docs/font/GenJyuuGothic-P-Bold-subset.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
 body {
-	font-family:"GenJyuuGothic-P-Bold","ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	font-family: 'Noto Sans KR', sans-serif;
 }
 
 a {
