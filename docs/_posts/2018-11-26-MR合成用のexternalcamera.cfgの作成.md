@@ -17,10 +17,10 @@ externalcamera.cfg파일에는 "3번째"의 컨트롤러에서 카메라까지�
   
 SteamVR의 일부의 게임이나, LIV에 대응하는 게임에서 이 파일을 사용하여 합성작업을 수행할 수 있습니다.
   
-[기본 캘리브레이션](https://sh-akira.github.io/VirtualMotionCapture-ko/manual/%E5%9F%BA%E6%9C%AC%E3%81%AE%E6%93%8D%E4%BD%9C%E6%96%B9%E6%B3%95.html)를 완료하여, 버츄얼모션캡쳐에서 모델의 움직임을 확인할 수 있는 상태에서 설명을 합니다.
+[기본 캘리브레이션](https://ko.vmc.info/manual/%E5%9F%BA%E6%9C%AC%E3%81%AE%E6%93%8D%E4%BD%9C%E6%96%B9%E6%B3%95.html)를 완료하여, 버츄얼모션캡쳐에서 모델의 움직임을 확인할 수 있는 상태에서 설명을 합니다.
   
 externalcamera.cfg를 출력하기 위해선 기준이 되는 3번째 컨트롤러, 또는 가상 컨트롤러를 먼저 준비해야합니다. 가상 컨트롤러를 만드는 방법은 다음 페이지를 참조해 주십시오.
-・[LIV초기설정](https://sh-akira.github.io/VirtualMotionCapture-ko/manual/LIV%E3%81%AE%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A.html)  
+・[LIV초기설정](https://ko.vmc.info/manual/LIV%E3%81%AE%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A.html)  
 ・MixedRealityTwoController 인스톨(작성중)
   
 
@@ -81,5 +81,5 @@ externalcamera.cfg출력 버튼을 눌러주세요.
 
 ## 실제로 게임과 합성
 
-・[LIV와 버츄얼모션캡쳐를 MR합성](https://sh-akira.github.io/VirtualMotionCapture-ko/manual/LIV%E3%81%A8%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3%E3%83%BC%E3%81%A7MR%E5%90%88%E6%88%90.html)  
+・[LIV와 버츄얼모션캡쳐를 MR합성](https://ko.vmc.info/manual/LIV%E3%81%A8%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3%E3%83%BC%E3%81%A7MR%E5%90%88%E6%88%90.html)  
 ・externalcamera.cfg를 직접 게임폴더에 넣어서 MR합성(작성중)
